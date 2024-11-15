@@ -6,6 +6,90 @@
     <title>Registro</title>
 </head>
 <body>
+
+    <!-- Header -->
+     <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Carrito</a>
+                </li>
+                <li>
+                    <a href="#">LogIn</a>
+                </li>
+            </ul>
+        </nav>
+     </header>
+
+     <!-- Contenido principal -->
+      <hr>
+      <main>
+        <!-- Aqui va el form -->
+         <h2>Sign up</h2>
+         <form>
+            <div>
+                <label for="fname">First name</label>
+                <br>
+                <input type="text" name="fname" id="fname" placeholder="First name">
+            </div>
+            <br> <!-- Salto de línea -->
+            <div>
+               <label for="inputEmail">Email</label> 
+               <input type="email" name="inputEmail" id="inputEmail" placeholder="user@correo.com">
+            </div>
+            <br><!-- Salto de linea -->
+            <div>
+                <label for="cname">country name</label>
+                <select name="cname" id="cname">
+                    <option value="mx">México</option>
+                    <option value="col">Colombia</option>
+                    <option value="arg">Argentina</option>
+                    <option value="per">Perú</option>
+                    <option value="chi">Chile</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <p>Gender</p>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="gender">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="gender">Female</label>
+                <br>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="legaPolicy" id="legalPolicy" value="true">
+                <label for="legalPolicy">Aceptar términos</label>
+            </div>
+            <div>
+                <input type="checkbox" name="recibirCorreos" id="recibirCorreos" value="true">
+                <label for="recibirCorreos">Recibir correos</label>
+            </div>
+            <br>
+            <div>
+                <!-- <input type="submit" value="Sign Up"> -->
+                <button type="submit">Sign Up</button>
+            </div>
+
+        </form>
+
+      </main>
+      <hr>
+     <!-- Pie de página -->
+    <footer>
+        <h5>Todos los derechos reservados Tienda de manzanas 🍎</h5>
+    </footer>
+
     <a href="../index.html">Volver al inicio 🙀</a>
     
 </body>
